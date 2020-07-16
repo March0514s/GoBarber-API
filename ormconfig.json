@@ -1,4 +1,5 @@
 {
+  "name": "default",
   "type": "postgres",
   "host": "192.168.99.100",
   "port": 5432,
@@ -8,6 +9,6 @@
   "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
   "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
   "cli": {
-    "migrationsDir": "./src/shared/infra/typeorm/migrations/*.ts"
+    "migrationsDir": "./src/shared/infra/typeorm/migrations"
   }
 }
